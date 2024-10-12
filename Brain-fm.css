@@ -6,7 +6,8 @@ body {
 }
 
 .img-1 {
-    flex: basis 50%; 
+    flex: basis 50%;
+    justify-content: space-around; 
     img {
         height: 450; 
         max-width: 450px;
@@ -16,12 +17,22 @@ body {
 .img-2 {
     flex: basis 50%; 
     width: 100%;
+    justify-content: space-around;
     img {
         height: 300; 
         max-width: 300px;
     }
 }
 
+.img-3 {
+    flex: basis 50%; 
+    width: 100%;
+    justify-content: space-around;
+    img {
+        height: 250; 
+        max-width: 250px;
+    }
+}
 
 .button-1 {
     background-image: linear-gradient(to right, #f9ab01, #f9a100, #f99700, #f98d03, #f88308); 
@@ -31,20 +42,24 @@ body {
     border-radius: 20px;
 }
 
-
 .button-2 {
     background-image: linear-gradient(to right, #f9ab01, #f9a100, #f99700, #f98d03, #f88308); 
     color: #FFFFFF; 
     text-wrap: balance; 
-    padding: 10px 35px; 
+    padding: 10px 40px; 
     margin: 20px 0px 0px 0px; 
     border: 0px; 
     border-radius: 30px;
 }
 
-.wrapper {
-    max-width: 35vw;
-    max-height: auto;
+.wrapper-1 {
+    max-width: 30vw;
+
+}
+
+.wrapper-2 {
+    max-width: 30vw;
+    margin-left: 100px;
 }
 
 .section-1{
@@ -74,6 +89,27 @@ body {
     
 }
 
+.section-4{
+    color: #ffffff;
+    display: flex;
+    display: make-me-fit;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.section-5{
+    text-decoration: underline; 
+    color:#ffffff; 
+    display: flex; 
+    flex-grow: 2; 
+    margin-right: 10px;
+}
+
+.section-6 {
+    margin-right: 12px;
+}
+
 .section-7{
     display: flex;
     align-items: center;
@@ -85,54 +121,38 @@ a {
     color: white;
    }
 
-.section-4{
-    color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    max-width: 90vw;
-}
-
-.section-6 {
-    text-decoration: underline; 
-    color:#ffffff; 
-    display: flex; 
-    flex-grow: 2; 
-    margin-right: 10px;
-}
 
 .text-4 {
     font-size: 20px; 
     Font-family: monospace; 
     font-weight: thin; 
     margin: 0;
+}
 
+.text-5 {
+    font-size: 25px; 
+    margin: 0;
 }
 
 .text-6 {
     color: rgb(185, 183, 183); 
     font-size: 12px;
+    margin-right: 10px;
 }
 
-.text-11 {
-
+.text-7 {
+    color: rgb(185, 183, 183);
+    font-size: 9px;
 }
-
-.text-13 {
+.text-13-Titles {
     font-weight: bold; 
-    font-size: 15px; 
+    font-size: 18px;
 
 }
 
-.text-14 {
-    font-weight: normal;  
+.text-14-Paragraphs {
+    font-weight: normal; 
 
 }
 
-.section-5{
-    display: flex;
-    flex-direction: row;
-    font-weight: bold;
-    text-decoration:underline;
-    margin-left: 70px;
-}
+
