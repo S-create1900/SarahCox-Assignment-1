@@ -54,12 +54,12 @@ body {
 
 .wrapper-1 {
     max-width: 30vw;
-
+    margin-right: 50px;
 }
 
 .wrapper-2 {
     max-width: 30vw;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .section-1{
@@ -76,7 +76,6 @@ body {
     display: flex; 
     justify-content: center;
     margin: 0;
-    flex-basis: 40%
 }
 
 .section-3{
@@ -86,7 +85,6 @@ body {
     margin: 60px; 
     display: inline-block;
     width: 100%;
-    
 }
 
 .section-4{
@@ -95,7 +93,6 @@ body {
     display: make-me-fit;
     justify-content: center;
     gap: 10px;
-
 }
 
 .section-5{
@@ -103,11 +100,12 @@ body {
     color:#ffffff; 
     display: flex; 
     flex-grow: 2; 
-    margin-right: 10px;
 }
 
 .section-6 {
     margin-right: 12px;
+    font-size: 15px;
+    text-decoration: none;
 }
 
 .section-7{
